@@ -49,7 +49,7 @@ class Spreadsheet extends Component
     {
         parent::__construct($config);
         $this->_spreadsheet = new phpSpreadsheet();
-        $this->worksheet    = new Worksheet($this->_spreadsheet);
+        $this->worksheet    = new WorkSheet($this->_spreadsheet);
     }
     
     /**
